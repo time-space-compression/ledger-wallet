@@ -52,7 +52,7 @@ typedef struct tokenDefinition_t {
 #define NUM_TOKENS_TOMOCHAIN 0
 #define NUM_TOKENS_TOBALABA 0
 
-#define NUM_TOKENS_ASTON 38 // Added by wschoi
+//#define NUM_TOKENS_ASTON 38 // Added by wschoi
 
 
 
@@ -80,7 +80,7 @@ extern tokenDefinition_t const TOKENS_HPB[NUM_TOKENS_HPB];
 extern tokenDefinition_t const TOKENS_TOMOCHAIN[NUM_TOKENS_TOMOCHAIN];
 extern tokenDefinition_t const TOKENS_TOBALABA[NUM_TOKENS_TOBALABA];
 
-extern tokenDefinition_t const TOKENS_ASTON[NUM_TOKENS_ASTON]; // Added by wschoi
+//extern tokenDefinition_t const TOKENS_ASTON[NUM_TOKENS_ASTON]; // Added by wschoi
 
 #endif
 

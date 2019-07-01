@@ -46,7 +46,7 @@ typedef enum chain_kind_e {
 	CHAIN_KIND_HPB,
 	CHAIN_KIND_TOMOCHAIN,
 	CHAIN_KIND_TOBALABA,
-	CHAIN_KIND_ASTON // Added by wschoi
+//	CHAIN_KIND_ASTON // Added by wschoi
 } chain_kind_t;
 
 typedef struct chain_config_s {

@@ -44,12 +44,12 @@ APPNAME = "Ethereum"
 DEFINES_LIB=
 APP_LOAD_FLAGS=--appFlags 0xa40
 
-else ifeq ($(CHAIN),aston) // Added by wschoi
+/*else ifeq ($(CHAIN),aston) // Added by wschoi
 APP_LOAD_PARAMS += --path "44'/60'"
 DEFINES += CHAINID_UPCASE=\"ETHEREUM\" CHAINID_COINNAME=\"ETH\" CHAIN_KIND=CHAIN_KIND_ETHEREUM CHAIN_ID=0
 APPNAME = "ASTON"
 DEFINES_LIB=
-APP_LOAD_FLAGS=--appFlags 0xa40
+APP_LOAD_FLAGS=--appFlags 0xa40*/
 
 else ifeq ($(CHAIN),ellaism)
 APP_LOAD_PARAMS += --path "44'/163'"
