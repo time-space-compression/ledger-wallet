@@ -1184,6 +1184,6 @@ const tokenDefinition_t const TOKENS_TOBALABA[NUM_TOKENS_TOBALABA] = {};
 
 //const tokenDefinition_t const TOKENS_TOBALABA[NUM_TOKENS_TOBALABA] = {};
 
-const tokenDefinition_t const TOKENS_ASTON[NUM_TOKENS_ASTON] = {};
+//const tokenDefinition_t const TOKENS_ASTON[NUM_TOKENS_ASTON] = {};
 
 #endif
