@@ -2700,7 +2700,7 @@ chain_config_t const C_chain_config = {
 };
 
 __attribute__((section(".boot"))) int main(int arg0) {
-#ifdef USE_LIB_ASTON //USE_LIB_ETHEREUM
+#ifdef USE_LIB_ETHEREUM//USE_LIB_ASTON //
     chain_config_t local_chainConfig;
     os_memmove(&local_chainConfig, &C_chain_config, sizeof(chain_config_t));
     unsigned int libcall_params[3];
