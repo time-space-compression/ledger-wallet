@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f7f4efe-6479-495e-8eb2-148750348143" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="104" />
+          <entry key="Makefile" value="112" />
           <entry key="c" value="138" />
           <entry key="h" value="106" />
           <entry key="md" value="87" />
@@ -51,7 +50,7 @@
         <counts>
           <entry key="C++" value="244" />
           <entry key="Markdown" value="87" />
-          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="PLAIN_TEXT" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="405">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -187,10 +186,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2068" />
+    <option name="x" value="6" />
     <option name="y" value="23" />
-    <option name="width" value="1878" />
-    <option name="height" value="1002" />
+    <option name="width" value="2034" />
+    <option name="height" value="1071" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -203,6 +202,16 @@
             <path>
               <item name="ledger-app-aston" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledger-app-aston" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledger-app-aston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledger-app-aston" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledger-app-aston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledger-app-aston" type="462c0819:PsiDirectoryNode" />
+              <item name="src_common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,18 +255,18 @@
       <option name="presentableId" value="Default" />
       <updated>1561519378966</updated>
       <workItem from="1561519380545" duration="10433000" />
-      <workItem from="1561682955606" duration="13319000" />
+      <workItem from="1561682955606" duration="16166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23752000" />
+    <option name="totallyTimeSpent" value="26599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2068" y="23" width="1878" height="1002" extended-state="0" />
+    <frame x="6" y="23" width="2034" height="1071" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19607843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18072289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="405">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
