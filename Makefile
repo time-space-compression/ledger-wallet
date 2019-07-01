@@ -33,7 +33,7 @@ APPVERSION=$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)
 APP_LOAD_FLAGS= --appFlags 0x240 --dep Ethereum:$(APPVERSION)
 
 ifeq ($(CHAIN),)
-CHAIN=aston
+CHAIN=ethereum
 endif
 
 ifeq ($(CHAIN),ethereum)
