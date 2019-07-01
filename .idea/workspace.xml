@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f7f4efe-6479-495e-8eb2-148750348143" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chainConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainConfig.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +40,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="180" />
-          <entry key="c" value="138" />
+          <entry key="Makefile" value="216" />
+          <entry key="c" value="144" />
           <entry key="h" value="114" />
           <entry key="md" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C++" value="252" />
+          <entry key="C++" value="258" />
           <entry key="Markdown" value="87" />
-          <entry key="PLAIN_TEXT" value="180" />
+          <entry key="PLAIN_TEXT" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="2702" column="23" selection-start-line="2702" selection-start-column="23" selection-end-line="2702" selection-end-column="23" />
+            <state relative-caret-position="296">
+              <caret line="1795" column="10" selection-start-line="1795" selection-start-column="10" selection-end-line="1795" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tokens.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="1162" column="64" lean-forward="true" selection-start-line="1161" selection-end-line="1162" selection-end-column="64" />
+            <state relative-caret-position="782">
+              <caret line="1186" column="2" selection-start-line="1186" selection-start-column="2" selection-end-line="1186" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -110,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="339">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -154,9 +153,10 @@
       <find>USE_LIB_ASTON</find>
       <find>CHAIN_KIND</find>
       <find>e8018504e3b292008252089428ee52a8f3d6e5d15f8b131996950d7f296c7952872bd72a2487400080</find>
-      <find>chain_config_t</find>
       <find>31805</find>
       <find>Added by wschoi</find>
+      <find>Added by wshoi</find>
+      <find>chain_config_t</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,10 +173,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/tokens.c" />
         <option value="$PROJECT_DIR$/src/chainConfig.h" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/tokens.h" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/tokens.c" />
         <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
@@ -257,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561519378966</updated>
       <workItem from="1561519380545" duration="10433000" />
-      <workItem from="1561682955606" duration="23722000" />
+      <workItem from="1561682955606" duration="24020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34155000" />
+    <option name="totallyTimeSpent" value="34453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2060" y="23" width="1899" height="1034" extended-state="0" />
@@ -314,20 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tokens.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="1162" column="64" lean-forward="true" selection-start-line="1161" selection-end-line="1162" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="2702" column="23" selection-start-line="2702" selection-start-column="23" selection-end-line="2702" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chainConfig.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
@@ -342,10 +328,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1795" column="10" selection-start-line="1795" selection-start-column="10" selection-end-line="1795" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tokens.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="1186" column="2" selection-start-line="1186" selection-start-column="2" selection-end-line="1186" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="339">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
