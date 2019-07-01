@@ -33,7 +33,7 @@ APPVERSION=$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)
 APP_LOAD_FLAGS= --appFlags 0x240 --dep Ethereum:$(APPVERSION)
 
 ifeq ($(CHAIN),)
-CHAIN=tobalaba
+CHAIN=aston
 endif
 
 ifeq ($(CHAIN),ethereum)
@@ -48,6 +48,8 @@ else ifeq ($(CHAIN),aston) // Added by wschoi
 APP_LOAD_PARAMS += --path "44'/31805'"
 DEFINES += CHAINID_UPCASE=\"ASTON\" CHAINID_COINNAME=\"ASTON\" CHAIN_KIND=CHAIN_KIND_ASTON CHAIN_ID=31805
 APPNAME = "ASTON"
+DEFINES_LIB=
+APP_LOAD_FLAGS=--appFlags 0xa40
 
 else ifeq ($(CHAIN),ellaism)
 APP_LOAD_PARAMS += --path "44'/163'"
