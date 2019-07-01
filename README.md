@@ -1,9 +1,9 @@
-# ledger-app-eth
-Ethereum wallet application framework for Ledger Blue, Nano S and Nano X
+# ledger-app-ASTON
+ASTON wallet application framework for Ledger Nano S
 
-This follows the specification available in the doc/ folder
+This follows the specification available in the doc/folder
 
-To use the generic wallet (which disables all data transaction) refer to signTx.py (requires rlp package) or Ledger Ethereum Wallet Chrome application available on Github at https://github.com/LedgerHQ/ledger-wallet-ethereum-chrome or the Chrome Web store at https://chrome.google.com/webstore/detail/ledger-wallet-ethereum/hmlhkialjkaldndjnlcdfdphcgeadkkm 
+To use X.Wallet enabled on X.Blockchain refer to the Chrome Web store at https://chrome.google.com/webstore/detail/xwallet/cihoidjklpcahkkomjbipncmkpglelme?utm_source=chrome-ntp-icon 
 
 Other examples are provided reusing the Ethereum parsing framework to implement some advanced use cases : 
 

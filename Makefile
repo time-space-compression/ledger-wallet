@@ -20,7 +20,8 @@ $(error Environment variable BOLOS_SDK is not set)
 endif
 include $(BOLOS_SDK)/Makefile.defines
 
-DEFINES_LIB = USE_LIB_ETHEREUM
+DEFINES_LIB = USE_LIB_ASTON
+#DEFINES_LIB = USE_LIB_ETHEREUM
 APP_LOAD_PARAMS= --curve secp256k1 $(COMMON_LOAD_PARAMS)
 # Allow the app to use path 45 for multi-sig (see BIP45).
 APP_LOAD_PARAMS += --path "45'"
@@ -32,16 +33,22 @@ APPVERSION=$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)
 APP_LOAD_FLAGS= --appFlags 0x240 --dep Ethereum:$(APPVERSION)
 
 ifeq ($(CHAIN),)
-CHAIN=ethereum
+CHAIN=aston
 endif
 
 ifeq ($(CHAIN),ethereum)
 # Lock the application on its standard path for 1.5. Please complain if non compliant
 APP_LOAD_PARAMS += --path "44'/60'"
 DEFINES += CHAINID_UPCASE=\"ETHEREUM\" CHAINID_COINNAME=\"ETH\" CHAIN_KIND=CHAIN_KIND_ETHEREUM CHAIN_ID=0
-APPNAME = "ASTON"
+APPNAME = "Ethereum"
 DEFINES_LIB=
 APP_LOAD_FLAGS=--appFlags 0xa40
+
+else ifeq ($(CHAIN),aston) // Added by wschoi
+APP_LOAD_PARAMS += --path "44'/31805'"
+DEFINES += CHAINID_UPCASE=\"ASTON\" CHAINID_COINNAME=\"ASTON\" CHAIN_KIND=CHAIN_KIND_ASTON CHAIN_ID=31805
+APPNAME = "ASTON"
+
 else ifeq ($(CHAIN),ellaism)
 APP_LOAD_PARAMS += --path "44'/163'"
 DEFINES += CHAINID_UPCASE=\"ELLA\" CHAINID_COINNAME=\"ELLA\" CHAIN_KIND=CHAIN_KIND_ELLAISM CHAIN_ID=64
@@ -151,7 +158,7 @@ else
 ifeq ($(TARGET_NAME), TARGET_NANOX)
 ICONNAME=nanox_app_$(CHAIN).gif
 else
-ICONNAME=nanos_app_aston.gif
+ICONNAME=nanos_app_$(CHAIN).gif
 endif
 endif
 

@@ -1792,6 +1792,10 @@ tokenDefinition_t* getKnownToken() {
         case CHAIN_KIND_ETHEREUM_CLASSIC:
             numTokens = NUM_TOKENS_ETHEREUM_CLASSIC;
             break;
+
+        case CHAIN_KIND_ASTON: // Added by wshoi
+            numTokens = NUM_TOKENS_ASTON;
+
         case CHAIN_KIND_PIRL:
             numTokens = NUM_TOKENS_PIRL;
             break;
@@ -2695,7 +2699,7 @@ chain_config_t const C_chain_config = {
 };
 
 __attribute__((section(".boot"))) int main(int arg0) {
-#ifdef USE_LIB_ETHEREUM
+#ifdef USE_LIB_ASTON //USE_LIB_ETHEREUM
     chain_config_t local_chainConfig;
     os_memmove(&local_chainConfig, &C_chain_config, sizeof(chain_config_t));
     unsigned int libcall_params[3];
@@ -2712,7 +2716,7 @@ __attribute__((section(".boot"))) int main(int arg0) {
             // ensure syscall will accept us
             check_api_level(CX_COMPAT_APILEVEL);
             // delegate to Ethereum app/lib
-            libcall_params[0] = "Ethereum";
+            libcall_params[0] = "ASTON";//"Ethereum";
             libcall_params[1] = 0x100; // use the Init call, as we won't exit
             libcall_params[2] = &local_chainConfig;
             os_lib_call(&libcall_params);
