@@ -109,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -186,10 +186,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="2061" />
     <option name="y" value="23" />
-    <option name="width" value="2034" />
-    <option name="height" value="1071" />
+    <option name="width" value="1899" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,18 +255,18 @@
       <option name="presentableId" value="Default" />
       <updated>1561519378966</updated>
       <workItem from="1561519380545" duration="10433000" />
-      <workItem from="1561682955606" duration="16166000" />
+      <workItem from="1561682955606" duration="18630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26599000" />
+    <option name="totallyTimeSpent" value="29063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="2034" height="1071" extended-state="0" />
+    <frame x="2061" y="23" width="1899" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18072289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19386107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="525">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
