@@ -2717,7 +2717,7 @@ __attribute__((section(".boot"))) int main(int arg0) {
             // ensure syscall will accept us
             check_api_level(CX_COMPAT_APILEVEL);
             // delegate to Ethereum app/lib
-            libcall_params[0] = "ASTON";//"Ethereum";
+            libcall_params[0] = "Ethereum";//"ASTON";//
             libcall_params[1] = 0x100; // use the Init call, as we won't exit
             libcall_params[2] = &local_chainConfig;
             os_lib_call(&libcall_params);
