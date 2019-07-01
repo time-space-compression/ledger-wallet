@@ -1793,9 +1793,9 @@ tokenDefinition_t* getKnownToken() {
             numTokens = NUM_TOKENS_ETHEREUM_CLASSIC;
             break;
 
-        case CHAIN_KIND_ASTON: // Added by wshoi
+        /*case CHAIN_KIND_ASTON: // Added by wshoi
             numTokens = NUM_TOKENS_ASTON;
-            break;
+            break;*/
 
         case CHAIN_KIND_PIRL:
             numTokens = NUM_TOKENS_PIRL;
