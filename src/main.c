@@ -1795,6 +1795,7 @@ tokenDefinition_t* getKnownToken() {
 
         case CHAIN_KIND_ASTON: // Added by wshoi
             numTokens = NUM_TOKENS_ASTON;
+            break;
 
         case CHAIN_KIND_PIRL:
             numTokens = NUM_TOKENS_PIRL;
