@@ -40,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="216" />
+          <entry key="Makefile" value="221" />
           <entry key="c" value="144" />
           <entry key="h" value="114" />
           <entry key="md" value="87" />
@@ -50,7 +50,7 @@
         <counts>
           <entry key="C++" value="258" />
           <entry key="Markdown" value="87" />
-          <entry key="PLAIN_TEXT" value="216" />
+          <entry key="PLAIN_TEXT" value="221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="551">
+              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -188,7 +188,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2060" />
+    <option name="x" value="2065" />
     <option name="y" value="23" />
     <option name="width" value="1899" />
     <option name="height" value="1034" />
@@ -257,15 +257,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561519378966</updated>
       <workItem from="1561519380545" duration="10433000" />
-      <workItem from="1561682955606" duration="24020000" />
+      <workItem from="1561682955606" duration="25955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34453000" />
+    <option name="totallyTimeSpent" value="36388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2060" y="23" width="1899" height="1034" extended-state="0" />
+    <frame x="2065" y="23" width="1899" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19386107" />
@@ -344,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="551">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
         </state>
       </provider>
     </entry>

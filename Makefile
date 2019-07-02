@@ -45,7 +45,7 @@ DEFINES_LIB=
 APP_LOAD_FLAGS=--appFlags 0xa40
 else ifeq ($(CHAIN),aston) // by wschoi
 # Lock the application on its standard path for 1.5. Please complain if non compliant
-APP_LOAD_PARAMS += --path "44'/60'"
+APP_LOAD_PARAMS += --path "44'/31805'"
 DEFINES += CHAINID_UPCASE=\"ETHEREUM\" CHAINID_COINNAME=\"ETH\" CHAIN_KIND=CHAIN_KIND_ETHEREUM CHAIN_ID=0
 APPNAME = "ASTON"
 DEFINES_LIB=
